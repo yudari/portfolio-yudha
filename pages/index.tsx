@@ -10,7 +10,7 @@ export default function Home() {
         <meta property='og:title' content='Portfolio - Yudha' />
         <meta property='og:description' content='Berisi portfolio saya' />
         <meta property='og:image' content='https://imageurl' />
-        <meta property='og:url' content='https://portfolio-yudha.netlify.app' />
+        <meta property='og:url' content='https://yudhasatria.netlify.app/' />
       </Head>
       <header className='header' id='header'>
         <nav className='nav container'>
