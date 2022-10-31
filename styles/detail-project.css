@@ -1,0 +1,147 @@
+/* Section Glob Portfolio */
+.section__glob__portfolio {
+  display: flex;
+  gap: 0.5rem;
+  font-size: var(--h2-font-size);
+  margin-top: var(--mb-2);
+}
+
+.back__home {
+  color: var(--first-color-lighter);
+}
+.icon__blob {
+  font-size: var(--h2-font-size);
+}
+
+.title__glob {
+  color: var(--first-color);
+}
+
+.year__glob {
+  font-size: var(--small-font-size);
+  align-self: center;
+  background-color: var(--first-color-second);
+  padding: 4px 12px;
+  color: #fff;
+  border-radius: 4px;
+}
+.home__container p {
+  font-size: var(--normal-font-size);
+}
+
+.container__detail__app__stack {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.item__stack {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.item__stack p {
+  background-color: #74a892;
+  color: #fff;
+  padding: 4px 6px;
+  font-size: var(--small-font-size);
+  border-radius: 4px;
+}
+
+.item__stack a {
+  color: #809bce;
+}
+.item__stack .icon__stack {
+  margin-left: 4px;
+}
+.item__stack .disable__link__stack {
+  color: var(--text-color);
+}
+
+section.item__portfolio__app .item__portfolio {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+section.item__portfolio__app .item__portfolio img {
+  border-radius: 12px;
+  box-shadow: 0 30px 20px -30px rgba(57, 48, 40, 0.68);
+}
+
+.item__portfolio__app {
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*==================== MEDIA QUERIES ====================*/
+/* For small devices */
+@media screen and (max-width: 411px) {
+  .section__glob__portfolio {
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .back__home {
+    font-size: var(--normal-font-size);
+  }
+  .home__container p {
+    font-size: small;
+  }
+  .title__glob {
+    font-size: var(--normal-font-size);
+  }
+  .item__stack {
+    overflow-wrap: break-word;
+  }
+}
+/* For medium devices */
+@media screen and (min-width: 568px) {
+  .container__detail__app__stack {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .section {
+    padding: 2rem 0 2rem;
+  }
+
+  .header,
+  .main,
+  .footer__container {
+    padding: 0 1rem;
+  }
+  .home__container {
+    row-gap: 5rem;
+  }
+
+  .container__detail__app__stack {
+    margin-bottom: 0px;
+  }
+
+  .home__content {
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+  .header,
+  .main,
+  .footer__container {
+    padding: 0;
+  }
+}
